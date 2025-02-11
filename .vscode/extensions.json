@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "adamhartford.vscode-base64",
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "davidanson.vscode-markdownlint",
+    "formulahendry.auto-rename-tag",
+    "github.vscode-github-actions",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "oven.bun-vscode",
+    "redhat.vscode-yaml",
+    "vitest.explorer",
+    "rphlmr.vscode-drizzle-orm"
+  ]
+}
