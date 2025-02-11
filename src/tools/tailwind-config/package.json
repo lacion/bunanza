@@ -1,0 +1,19 @@
+{
+  "name": "@bunanza/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "typecheck": "bunx --bun tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@bunanza/typescript-config": "workspace:*",
+    "tailwindcss": "^4.0.6"
+  }
+}
