@@ -1,0 +1,13 @@
+{
+  "name": "@bunanza/auth",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "typecheck": "bunx --bun tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@bunanza/typescript-config": "workspace:*"
+  }
+}
